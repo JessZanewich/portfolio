@@ -1,0 +1,22 @@
+body {
+  background-color: rgb(169, 170, 205);
+}
+
+.title-head > h1 {
+  font-family: "Arial Black", Gadget, sans-serif;
+  font-size: 55px;
+  color: rgb(223, 219, 224);
+  margin-top: 100px;
+  text-shadow: 4px 2px 8px rgb(17, 19, 14);
+}
+
+.break-line {
+  width: 55%;
+}
+
+.social-btns > a > button {
+  font-family: "Arial Black", Gadget, sans-serif;
+  font-size: 16px;
+  border: 2px solid black;
+  color: black;
+}
