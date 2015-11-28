@@ -1,7 +1,10 @@
 body {
   background-color: rgb(169, 170, 205);
 }
-
+a {
+  color: white;
+  padding: 10px 5px 10px 5px;
+}
 .title-head > h1 {
   font-family: "Arial Black", Gadget, sans-serif;
   font-size: 55px;
@@ -36,11 +39,32 @@ button:hover {
   background-color: rgb(180, 145, 57);
   /*background-image:url(http://p1.pichost.me/i/20/1432320.jpg);*/
 }
+.upper-space {
+  margin-top: 100px;
+}
+img {
+  padding: 1px;
+  border: 2px solid black;
+}
+h2 {
+  font-family: "Arial Black", Gadget, sans-serif;
+  font-size: 40px;
+  padding: 20px;
+}
 .portfolio-page {
   height: 1000px;
   background-color: rgb(81, 65, 147);
 }
 .contact-page {
   height: 1000px;
-  background-color: rgb(51, 56, 172);
+  background-color: rgb(8, 71, 91);
+}
+.twitter{
+  background-color: #3cf;
+}
+.github, .codepen {
+  background-color: black;
+}
+.linkedin {
+  background-color: #0077B5;
 }
