@@ -11,32 +11,32 @@
     <link href="main.css" rel="stylesheet">
   </head>
   <body>
-    <div class="container-fluid home-page">
-      <a name="home"></a>
-      <nav class="navbar navbar-inverse navigation">
-        <div class="container-fluid">
-          <div class="navbar-header">
-            <button type="button" class="navbar-toggle collapsed"
-            data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
-              <span class="sr-only">Toggle Navigation</span>
-              <span class="icon-bar"></span>
-              <span class="icon-bar"></span>
-              <span class="icon-bar"></span>
-              <span class="icon-bar"></span>
-            </button>
-            <a class="navbar-brand" href="#">Jess Zanewich</a>
-          </div>
-          <div class="collapse navbar-collapse">
-            <ul class="nav navbar-nav navbar-right">
-              <li><a href="#home">Home</a></li>
-              <li><a href="#about">About</a></li>
-              <li><a href="#portfolio">Portfolio</a></li>
-              <li><a href="#contact">Contact</a></li>
-            </ul>
-          </div>
+    <nav class="navbar navbar-inverse nav-fixed">
+      <div class="container-fluid">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed"
+          data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+            <span class="sr-only">Toggle Navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="#">Jess Zanewich</a>
         </div>
-      </nav>
-        <div class="row-fluid text-center title-head">
+        <div class="collapse navbar-collapse">
+          <ul class="nav navbar-nav navbar-right">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#portfolio">Portfolio</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <a name="home"></a>
+    <div class="container-fluid home-page">
+      <div class="row-fluid text-center title-head">
           <h1>Jess Zanewich</h1>
         </div>
 
@@ -71,24 +71,62 @@
           <div class="col-md-2"></div>
           <div class="col-md-5 bio">
             <h2>A Little About Me</h2>
-            <p>
-              Description of me goes here
-            </p>
+            <p>Description of me goes here</p>
           </div>
           <div class="col-md-4">
             <img class="img-responsive" src="assets/photoOfMe.jpg" height="200px" width="200px">
           </div>
         </div>
       </div>
+
+      <a name="portfolio"></a>
       <div class="container-fluid portfolio-page">
-        <div class="row-fluid upper-space">
+        <div class="row upper-space">
           <div class="col-md-2"></div>
           <div class="col-md-5">
             <h2>Portfolio</h2>
-            <h4>These are a few of the small at home projects I have done</h4>
+            <h4>These are a few of the small at-home projects I have done</h4>
+          </div>
+        </div>
+        <!--Twitch API-->
+        <div class="row-fluid project-container">
+          <div class="col-md-1"></div>
+          <div class="col-sm-6 col-md-4 project-holder">
+            <a href="">
+              <div class="thumbnail">
+                <img src="assets/twitchLogo.jpg">
+                <div class="caption">
+                  Testing this
+                </div>
+              </div>
+            </a>
+          </div>
+          <!-- Open Weather API -->
+          <div class="col-sm-6 col-md-4 project-holder">
+            <a href="">
+              <div class="thumbnail">
+                <img src="assets/twitchLogo.jpg">
+                <div class="caption">
+                  Testing this
+                </div>
+              </div>
+            </a>
+          </div>
+          <!-- Poke API -->
+          <div class="col-sm-6 col-md-4 project-holder">
+            <a href="">
+              <div class="thumbnail">
+                <img src="assets/twitchLogo.jpg">
+                <div class="caption">
+                  Testing this
+                </div>
+              </div>
+            </a>
           </div>
         </div>
       </div>
+
+      <a name="contact"></a>
       <div class="container-fluid contact-page">
         <div class="row-fluid upper-space">
           <div class="col-md-2"></div>

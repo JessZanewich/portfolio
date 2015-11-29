@@ -1,10 +1,13 @@
 body {
   background-color: rgb(169, 170, 205);
+  padding: 0;
+  margin: 0;
 }
 a {
   color: white;
   padding: 10px 5px 10px 5px;
 }
+
 .title-head > h1 {
   font-family: "Arial Black", Gadget, sans-serif;
   font-size: 55px;
@@ -16,7 +19,12 @@ a {
 .break-line {
   width: 55%;
 }
-
+.nav-fixed {
+  border: 5px solid rgb(97, 13, 20);
+  position: fixed;
+  width: 100%;
+  z-index: 10;
+}
 .social-btns > a > button {
   font-family: "Arial Black", Gadget, sans-serif;
   font-size: 16px;
@@ -29,15 +37,15 @@ button:hover {
 }
 
 .home-page {
+  margin: 0;
   height: 1000px;
-  background-color: rgb(111, 167, 158);
-  /*background-image:url(http://stuffpoint.com/nature/image/165143-nature-nice-nature.jpg);*/
+  background-image:url(assets/backgrounds/DarkBackground.jpg);
 }
 
 .about-page {
   height: 1000px;
   background-color: rgb(180, 145, 57);
-  /*background-image:url(http://p1.pichost.me/i/20/1432320.jpg);*/
+  background-image:url(assets/backgrounds/blueBackground.jpg);
 }
 .upper-space {
   margin-top: 100px;
@@ -51,10 +59,20 @@ h2 {
   font-size: 40px;
   padding: 20px;
 }
+
 .portfolio-page {
   height: 1000px;
-  background-color: rgb(81, 65, 147);
+  background-image:url(assets/backgrounds/redBackground.jpg);
 }
+.project-container {
+  margin-top: 20px;
+}
+.project-holder {
+  margin: 20px;
+  width: 400px;
+  height: 500px;
+}
+
 .contact-page {
   height: 1000px;
   background-color: rgb(8, 71, 91);
