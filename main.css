@@ -1,7 +1,7 @@
 body {
   background-color: rgb(169, 170, 205);
 }
-a {
+.project-link {
   color: white;
   padding: 10px 5px 10px 5px;
 }
@@ -75,6 +75,10 @@ h2 {
   height: 1000px;
   background-color: rgb(8, 71, 91);
 }
+.social {
+  padding-top: 40px; 
+}
+
 .twitter{
   background-color: #3cf;
 }
